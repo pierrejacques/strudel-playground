@@ -55,6 +55,7 @@ The files are plain Strudel code, not ES modules. They have a `.js` extension on
 
 ## Learn
 
+- [HANDBOOK.md](HANDBOOK.md): the essential Strudel functions on one page
 - Workshop: https://strudel.cc/workshop/getting-started
 - Function reference: https://strudel.cc/learn
 - Sounds browser: open https://strudel.cc and check the "sounds" tab
