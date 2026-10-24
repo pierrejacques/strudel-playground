@@ -1,0 +1,24 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Strudel Playground</title>
+    <link rel="stylesheet" href="/src/style.css" />
+  </head>
+  <body>
+    <header>
+      <h1>strudel playground</h1>
+      <label>
+        pattern
+        <select id="pattern-select"></select>
+      </label>
+      <span class="hint">
+        click editor, then <kbd>Ctrl</kbd>/<kbd>⌘</kbd>+<kbd>Enter</kbd> play/update ·
+        <kbd>Ctrl</kbd>/<kbd>⌘</kbd>+<kbd>.</kbd> stop
+      </span>
+    </header>
+    <main id="repl"></main>
+    <script type="module" src="/src/main.js"></script>
+  </body>
+</html>
